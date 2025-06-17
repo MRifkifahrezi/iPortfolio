@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Skills - MyPortfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+      <div class="profile-img d-flex justify-content-center">
+        <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover" />
+      </div>
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Muhammad Rifki Fahrezi</h1>
+      </a>
+
+      <div class="social-links text-center">
+        <a href="mailto:rifkimuhammad497@gmail.com" class="envelope">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a href="discord://user-id/599471538864914432" class="discord"><i class="bi bi-discord"></i></a>
+        <a href="https://www.instagram.com/mrifkyfhrz?igsh=MWE0NXU2NXBlbDRlbQ==" class="instagram" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://wa.me/6282219137003" class="whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-rifki-fahrezi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html"><i class="bi bi-house navicon"></i>Home</a>
+          </li>
+          <li>
+            <a href="intro.html"><i class="bi bi-person navicon"></i> Intro</a>
+          </li>
+          <li>
+            <a href="skills.html" class="active"><i class="bi bi-code-slash navicon"></i> Skills</a>
+          </li>
+          <li>
+            <a href="experiences.html"><i class="bi bi-file-text navicon"></i> Experiences</a>
+          </li>
+          <li>
+            <a href="project.html"><i class="bi bi-images navicon"></i> Projects</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="bi bi-envelope navicon"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- My Skill Section -->
+      <section id="my-skill" class="skills section light-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <ul class="nav nav-tabs justify-content-center" id="skillTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="soft-skills-tab" data-bs-toggle="tab" data-bs-target="#soft-skills" type="button" role="tab" aria-controls="soft-skills" aria-selected="true">Soft Skills</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tech-skills-tab" data-bs-toggle="tab" data-bs-target="#tech-skills" type="button" role="tab" aria-controls="tech-skills" aria-selected="false">Tech Skills</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="personality-ability-tab" data-bs-toggle="tab" data-bs-target="#personality-ability" type="button" role="tab" aria-controls="personality-ability" aria-selected="false">Personality Ability</button>
+            </li>
+          </ul>
+          <div class="tab-content mt-4" id="skillTabsContent">
+            <!-- Soft Skills Tab -->
+            <div class="tab-pane fade show active" id="soft-skills" role="tabpanel" aria-labelledby="soft-skills-tab">
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                  <div class="card skill-card">
+                    <div class="card-body text-center">
+                      <img src="assets/img/vector/vector2.png" alt="System Analysis" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>System Analysis</strong></h5>
+                      <p class="card-text">I can identify client needs and design the best solution to develop applications.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                  <div class="card skill-card">
+                    <div class="card-body text-center">
+                      <img src="assets/img/vector/vector3.png" alt="Activity Leader" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Activity Leader</strong></h5>
+                      <p class="card-text">I can guide and give directions according to the rules for an activity or project work.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Card 3 -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                  <div class="card skill-card">
+                    <div class="card-body text-center">
+                      <img src="assets/img/vector/vector4.png" alt="Project Development" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Project Development</strong></h5>
+                      <p class="card-text">I can build web and mobile apps for you with a team or solo using JavaScript and Flutter.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-6 col-md-6 mb-4">
+                  <div class="card skill-card">
+                    <div class="card-body text-center">
+                      <img src="assets/img/vector/vector5.png" alt="User Interface Design" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>User Interface Design</strong></h5>
+                      <p class="card-text">I love creating web/mobile interface designs that impress both me & the users.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tech Skills Tab -->
+            <div class="tab-pane fade" id="tech-skills" role="tabpanel" aria-labelledby="tech-skills-tab">
+              <div class="row">
+                <!-- Skill Cards -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon1.png" alt="JavaScript" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>JavaScript</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon2.png" alt="Tailwind CSS" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Tailwind CSS</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon3.png" alt="WordPress" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>WordPress</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon4.png" alt="Ruby" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Ruby</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon5.png" alt="Pyhon" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Pyhon</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon6.png" alt="PHP" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>PHP</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon7.png" alt="Node Js" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Node Js</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Button to trigger modal -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <button class="card skill-card text-center w-100 h-auto" data-bs-toggle="modal" data-bs-target="#skillsModal">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/icon/icon21.png" alt="Other" class="img-fluid mb-3 skill-img" style="max-width: 80px; height: auto" />
+                      <h5 class="card-title"><strong>Other</strong></h5>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal (Diletakkan di luar tab-pane) -->
+            <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="skillsModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="skillsModalLabel">Other Skills</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <!-- Other Skill Cards -->
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon1.png" alt="JavaScript" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>JavaScript</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon2.png" alt="Tailwind CSS" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Tailwind CSS</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon3.png" alt="WordPress" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>WordPress</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon4.png" alt="Ruby" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Ruby</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon5.png" alt="Pyhon" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Pyhon</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon6.png" alt="PHP" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>PHP</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon7.png" alt="Node Js" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Node Js</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon8.png" alt="MySQL" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>MySQL</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon9.png" alt="Ms Office" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Ms Office</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon10.png" alt="Laravel" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Laravel</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon11.png" alt="Flutter" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Flutter</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon12.png" alt="HTML" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>HTML</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon13.png" alt="Figma" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Figma</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon14.png" alt="Dart" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Dart</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon15.png" alt="CSS" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>CSS</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon16.png" alt="C#" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>C#</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon17.png" alt="Bootstrap" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Bootstrap</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon18.png" alt="Blogger" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Blogger</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon19.png" alt="NeatBeans" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>NeatBeans</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card skill-card text-center h-100">
+                          <div class="card-body d-flex flex-column align-items-center">
+                            <img src="assets/img/icon/icon20.png" alt="Photoshop" class="img-fluid mb-3 skill-img" />
+                            <h5 class="card-title"><strong>Photoshop</strong></h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- personality ability Tab -->
+            <div class="tab-pane fade" id="personality-ability" role="tabpanel" aria-labelledby="personality-ability-tab">
+              <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal1.png" alt="Analytical" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Analytical</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal2.jpg" alt="Problem Solving" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Problem Solving</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal3.png" alt="Leadership" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Leadership</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal4.png" alt="Mentoring" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Mentoring</strong></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Card 5 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal5.png" alt="Creativity" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Creativity</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal6.png" alt="Adaptability" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Adaptability</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal7.png" alt="Public Speaking" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Public Speaking</strong></h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="card skill-card text-center h-100">
+                    <div class="card-body d-flex flex-column align-items-center">
+                      <img src="assets/img/personal/personal8.png" alt="Teamwork" class="img-fluid mb-3 skill-img" />
+                      <h5 class="card-title"><strong>Teamwork</strong></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>© <span>Copyright</span> <strong class="px-1 sitename">Muhammad Rifki Fahrezi</strong> <span>All Rights Reserved</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
